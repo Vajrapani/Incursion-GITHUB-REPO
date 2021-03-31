@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4408450280638535272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4408450280638535279}
+  - component: {fileID: 4408450280638535278}
+  - component: {fileID: 4408450280638535273}
+  m_Layer: 0
+  m_Name: BattleV3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408450280638535279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408450280638535272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2333373, y: -0.91451776, z: 14.712572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4408450280638535278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408450280638535272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 
+  hasSpawned: 0
+--- !u!114 &4408450280638535273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408450280638535272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c84d853ef2398438d001747896abee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  playermanager: {fileID: 0}
+  state: 0
+  P1: {fileID: 5174450225211066227, guid: 342e3cd0590d9c749bad2fa009416f83, type: 3}
+  P2: {fileID: 1264750830321844902, guid: 7535d4709ab937a40aaf3a56a86a2573, type: 3}
+  enemy: {fileID: 339983558578085604, guid: efb2b12c9caf237499444069c5c3fb3d, type: 3}
+  card: {fileID: 7260671199377876166, guid: a4c8d2db2b565b349b36f428b14d5636, type: 3}
+  cardPosition1: {fileID: 0}
+  logText: Start of Battle
+  player1Health: 
+  player2Health: 
+  monsterHealth: 
+  energy: 
+  currentPlayerTurn: 1
+  logText_UI: {fileID: 0}
+  player1Health_UI: {fileID: 0}
+  player2Health_UI: {fileID: 0}
+  monsterHealth_UI: {fileID: 0}
+  energy_UI: {fileID: 0}
